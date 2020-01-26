@@ -6,7 +6,7 @@ Here's a Windows Batch script that will toggle on and off the eGPU PCIe controll
 
 # How To Use Program
 
-1. Extract the files from the .zip.
+1. Extract the files from the .zip to its own folder.
 
 2. Right click on "eGPU-toggler.bat" file and create a .lnk shortcut.
 
