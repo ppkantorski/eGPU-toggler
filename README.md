@@ -17,3 +17,4 @@ Here's a Windows Batch script that will toggle on and off the eGPU PCIe controll
 # Side-note
 
 The script should work with other eGPUs and TB1/TB2 MBPs, but I have not tested it.  A few simple modifications would be required for different MBP models.
+DevCon (Devcon.exe), the Device Console, is a command-line tool that displays detailed information about devices on computers running Windows.  It is a free Microsoft package and not my own script. I do not proclaim ownership of it.
