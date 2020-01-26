@@ -1,4 +1,4 @@
-# eGPU-toggler (Windows 10 Bootcamp)
+# eGPU-toggler v1.0 (Windows 10 Bootcamp)
 Workaround to fix the eGPU driver issue "Error 12" on the 2015 MBP 15" running Windows 10 Bootcamp.
 
 # Features
