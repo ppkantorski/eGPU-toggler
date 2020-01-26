@@ -14,5 +14,5 @@ Here's a Windows Batch script that will toggle on and off the eGPU PCIe controll
 4. Make sure the Razer Core X is turned on and plugged into your MBP through the TB2 port.  Then double click on the .lnk shortcut and click "Yes".  After a successful bridge is made, the script will automatically end.
 
 # Side-note
-The script should work with other eGPUs and TB1/TB2 MBPs, but I have not tested it.  A few simple modifications would be required for different MBP models.
+The script should work with other eGPUs and TB1/TB2 MBPs, but I have not tested it.  A few simple modifications (changing driver IDs) would be required for different MBP models.
 DevCon (Devcon.exe), the Device Console, is a command-line tool that displays detailed information about devices on computers running Windows.  It is a free Microsoft package and not my own script. I do not proclaim ownership of it.
