@@ -10,7 +10,7 @@ echo #                                          ^|___/^|___/                    
 echo #========================================================================#
 echo # Description: This program repeatedly toggles the eGPU PCIe controller  #
 echo #              in order to trigger a proper eGPU detection and resolve   #
-echo #              "error 12".                                               #
+echo #              "Error 12".                                               #
 echo #========================================================================#
 echo # Programmer: Patrick Kantorski      ^| Date: 01/25/20                   #
 echo #========================================================================#
