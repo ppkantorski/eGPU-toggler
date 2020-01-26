@@ -1,5 +1,5 @@
 # eGPU-toggler (Windows 10 Bootcamp)
-Fix "Error 12" with the 2015 MBP 15" to trigger a successful eGPU connection (TB3->TB2).
+Fix "Error 12" with the 2015 MBP 15" to trigger a successful eGPU connection (TB3->TB2) on Windows 10 Bootcamp.
 
 # Features
 Here's a Windows Batch script that will toggle on and off the eGPU PCIe controller until a successful connection is made.  This program has only been tested with the 2015 MBP 15", the Razer Core X eGPU enclosure and Windows 10 Pro build 1903.
