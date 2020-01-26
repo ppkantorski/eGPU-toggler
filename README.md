@@ -13,3 +13,7 @@ Here's a Windows Batch script that will toggle on and off the eGPU PCIe controll
 3. Right click on the .lnk shortcut and click Properties, Advanced, then turn on Run as Admin.
 
 4. Make sure the Razer Core X is turned on and plugged into your MBP through the TB2 port.  Then double click on the .lnk shortcut, click "Yes".  After a successful bridge is made, the program will automatically close.
+
+# Side-note
+
+The script should work with other eGPUs and TB1/TB2 MBPs, but I have not tested it.  A few simple modifications would be required for different MBP models.
