@@ -26,7 +26,7 @@ Installing this program into the Windows 10 Task Scheduler is the most ideal way
 
 # Support for Other MBPs
 1. Track down the PCIE controller connecting your eGPU in Device Manager.  To test out which one is connecting your eGPU, try toggling off and on the PCIE controllers one by one in Device Manager to see which one makes your eGPU disappear.
-2. Right-click that particular PCIE controller, go to "Properties", "Details", "Hardware Ids".  Copy and replace the driver name in eGPU-toggler.bat with everything up until the 2nd "&" symbol.
+2. Right-click that particular PCIE controller, go to "Properties", "Details", "Hardware Ids".  Copy and replace the driver name in eGPU-toggler.bat with everything up until the 2nd "&" symbol.  It should look similar to "PCI\VEN_8086&DEV_0D05".
 3. On the actual eGPU (not the PCIE controller), copy the Hardware Ids that looks similar to "PCI\VEN_1002&DEV_66AF&SUBSYS_081E1002" and replace it in eGPU-toggler.bat. This will allow eGPU-toggler to detect changes to the status of Error 12.
 
 # Side-notes
