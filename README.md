@@ -13,7 +13,7 @@ Here's a Windows Batch script that will toggle on and off the eGPU PCIe controll
 
 4. Make sure the eGPU enclosure is turned on and plugged into your MBP through the TB2 port.  Then double click on the .lnk shortcut and click "Yes".  It may take a few minutes.  After a successful bridge is made or the eGPU is disconnected, the script will automatically close itself.
 
-# Installing Program to Run on Startup
+# Installing Program to Startup
 Installing this program into the Windows 10 Task Scheduler is the most ideal way to use eGPU-toggler.  By doing this, it will automatically run the script at startup so you do not need to open your computer up to get past the login screen.  If no eGPU is connected, the program will close.  If an eGPU with Error 12 pops-up, it will automatically execute.  Give it a few minutes, it will close automatically when the connection is made.  If a successful connection is not made within the first few minutes, try restarting your computer.
 
 1. Click on the search bar and type in "Task Scheduler".
