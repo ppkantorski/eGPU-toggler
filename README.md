@@ -25,7 +25,7 @@ Installing this program into the Windows 10 Task Scheduler is the most ideal way
 7. Now click "OK" at the bottom and your task will be set!  You can check it out in "Task Scheduler Library".  If you want to disable it, right-click on the task and click disable.  If you want to delete it, do the same but click delete.
 
 # Support for Other MBPs
-1. Track down the PCIE controller connecting your eGPU in Device Manager.  To test out which one is connecting your eGPU, try toggling off the PCIE controllers in Device Manager to see if your eGPU disappears, then toggle it back on.  The one that makes your eGPU disappear from Device Manager is the one you'll want to replace the driver name with.
+1. Track down the PCIE controller connecting your eGPU in Device Manager.  To test out which one is connecting your eGPU, try toggling off and on the PCIE controllers one by one in Device Manager to see which one makes your eGPU disappear.  The one that makes your eGPU disappear from Device Manager is the one you'll want to replace the driver name with.
 2. Right-click the PCIE controller, go to "Properties", "Details", "Hardware Ids".  Copy and replace the driver name in eGPU-toggler.bat with everything up until the 2nd "&" symbol.
 3. On the actual eGPU (not the PCIE controller), copy the Hardware Ids that looks similar to "PCI\VEN_1002&DEV_66AF&SUBSYS_081E1002" and replace it in eGPU-toggler.bat. This will allow eGPU-toggler to detect changes to the status of Error 12.
 
