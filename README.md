@@ -1,8 +1,8 @@
 # eGPU-toggler v1.0 (Windows 10 Bootcamp)
-Workaround to fix the eGPU driver issue "Error 12" on the 2015 MBP 15" running Windows 10 Bootcamp.
+Workaround to fix the eGPU driver issue "Error 12" on MBPs running Windows 10 Bootcamp.
 
 # Features
-Here's a Windows Batch script that will toggle on and off the eGPU PCIe controller until a successful connection is made.  This program has only been tested with the 2015 MBP 15", the Razer Core X eGPU enclosure and Windows 10 Pro build 1903.
+Here's a Windows Batch script that will toggle on and off the eGPU PCIe controller until a successful connection is made.  This script was written program for and has only been with the 2015 MBP 15", the Razer Core X eGPU enclosure and Windows 10 Pro build 1903.  If you want to try it out on a different MBP, follow the "Support for Other MBPs" steps to modify "eGPU-toggler.bat" for your system.
 
 # How To Use Program
 1. Extract the files from the .zip to its own folder.
